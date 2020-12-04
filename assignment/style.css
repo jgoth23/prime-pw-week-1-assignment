@@ -1,7 +1,42 @@
 /* Give your page a fun background color */
+body {background-color:  #c2d6d6;}
 
 /* Make the header and footer a different color from the background */
+header{
+    background-color:#fd0000;
+    text-align: center;
+    color: #fefcfe;
+    border: 3px solid black;
+    font-size: 25px;
+}
 
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  height: auto;
+  border: 5px solid #000000;
+}
+
+ul{
+   font-family: Helvetica, sans-serif;
+   font-size: 15px;
+   list-style-type: square;
+}
+footer{
+  font-style: italic;
+  background-color: #000000;
+  text-align: center;
+  color: #000000;
+  border: 2px solid #fd0000;
+  font-size: 20px;
+}
+p{
+  text-align: center;
+  color: #fefcfe;
+  font-style:italic;
+}
 /* Align the h1 containing your name in the center of the header*/
 
 /* Make your p tag a different color and italic */
