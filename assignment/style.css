@@ -5,11 +5,23 @@ body {background-color:  #c2d6d6;}
 header{
     background-color:#fd0000;
     text-align: center;
+    font-family: 'Actonia ', cursive;
     color: black;
     border: 3px solid black;
     font-size: 25px;
 }
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
 
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 img{
   display: block;
   margin-left: auto;
@@ -21,11 +33,12 @@ img{
 }
 
 ul{
-   font-family: 'Brush Script MT', cursive;
-   font-size: 40px;
+   font-family: "Lucida Console", "Courier New", monospace;
+   font-size: 30px;
    list-style-type: square;
 }
 footer{
+  margin-top: 95px;
   font-style: italic;
   background-color: #000000;
   text-align: center;
